@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "thenormalsmp",
+  "version": "${version}",
+  "name": "TheNormalSMP",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/marco/TheNormalSMP"
+  },
+  "license": "MIT",
+  "icon": "assets/thenormalsmp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.restonic4.thenormalsmp.Client"
+    ],
+    "main": [
+      "me.restonic4.thenormalsmp.TheNormalSMP"
+    ]
+  },
+  "mixins": [
+    "thenormalsmp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
