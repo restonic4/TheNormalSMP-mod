@@ -6,7 +6,6 @@
   "mixins": [
   ],
   "client": [
-    "HudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
